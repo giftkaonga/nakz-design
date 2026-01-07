@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Nakz Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-white dark:bg-slate-950 text-slate-800 dark:text-gray-200">
+
+<!-- NAVBAR HERE -->
+ <nav class="flex justify-between items-center p-6">
+  <h1 class="text-2xl font-bold text-sky-400">Nakz Design</h1>
+
+  <ul class="flex gap-6 items-center">
+    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+    <li><a href="portfolio.html" class="hover:text-sky-400">Portfolio</a></li>
+    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+    <button onclick="toggleTheme()" class="ml-4 px-3 py-1 rounded bg-sky-400 text-black">
+      🌙
+    </button>
+  </ul>
+</nav>
+
+<section class="max-w-5xl mx-auto p-8">
+  <h2 class="text-4xl font-bold mb-6">Who We Are</h2>
+  <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+    Nakz Design is a creative digital studio focused on modern UI/UX, branding,
+    and web design. We help businesses stand out with clean, elegant, and effective design.
+  </p>
+
+  <div class="grid md:grid-cols-3 gap-6 mt-10">
+    <div class="p-6 bg-gray-100 dark:bg-slate-900 rounded">
+      <h3 class="font-bold text-xl">Vision</h3>
+      <p>Create timeless digital experiences.</p>
+    </div>
+    <div class="p-6 bg-gray-100 dark:bg-slate-900 rounded">
+      <h3 class="font-bold text-xl">Mission</h3>
+      <p>Deliver clean and creative solutions.</p>
+    </div>
+    <div class="p-6 bg-gray-100 dark:bg-slate-900 rounded">
+      <h3 class="font-bold text-xl">Values</h3>
+      <p>Creativity, clarity, and consistency.</p>
+    </div>
+  </div>
+</section>
+
+<script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+</script>
+
+</body>
+</html>

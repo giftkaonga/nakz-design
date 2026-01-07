@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Nakz Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-white dark:bg-slate-950 text-slate-800 dark:text-gray-200">
+
+<!-- NAVBAR HERE -->
+
+ <nav class="flex justify-between items-center p-6">
+  <h1 class="text-2xl font-bold text-sky-400">Nakz Design</h1>
+
+  <ul class="flex gap-6 items-center">
+    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+    <li><a href="portfolio.html" class="hover:text-sky-400">Portfolio</a></li>
+    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+    <button onclick="toggleTheme()" class="ml-4 px-3 py-1 rounded bg-sky-400 text-black">
+      🌙
+    </button>
+  </ul>
+</nav>
+
+<section class="max-w-xl mx-auto p-8">
+  <h2 class="text-4xl font-bold mb-6">Contact Us</h2>
+
+  <form class="space-y-4">
+    <input class="w-full p-3 rounded bg-gray-100 dark:bg-slate-900" placeholder="Name">
+    <input class="w-full p-3 rounded bg-gray-100 dark:bg-slate-900" placeholder="Email">
+    <textarea class="w-full p-3 rounded bg-gray-100 dark:bg-slate-900" placeholder="Message"></textarea>
+    <button class="bg-sky-400 text-black px-6 py-3 rounded">Send</button>
+  </form>
+</section>
+
+<script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+</script>
+
+</body>
+</html>

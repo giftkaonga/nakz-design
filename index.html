@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nakz Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-950 text-gray-200 font-inter">
+
+  <nav class="flex justify-between items-center p-6">
+  <h1 class="text-2xl font-bold text-sky-400">Nakz Design</h1>
+
+  <ul class="flex gap-6 items-center">
+    <li><a href="index.html" class="hover:text-sky-400">Home</a></li>
+    <li><a href="about.html" class="hover:text-sky-400">About</a></li>
+    <li><a href="services.html" class="hover:text-sky-400">Services</a></li>
+    <li><a href="portfolio.html" class="hover:text-sky-400">Portfolio</a></li>
+    <li><a href="contact.html" class="hover:text-sky-400">Contact</a></li>
+
+    <button onclick="toggleTheme()" class="ml-4 px-3 py-1 rounded bg-sky-400 text-black">
+      🌙
+    </button>
+  </ul>
+</nav>
+
+
+  <!-- Hero -->
+   <section data-aos="fade-up">
+
+  <section class="h-[80vh] flex flex-col justify-center items-center text-center px-6">
+    <h2 class="text-5xl font-bold mb-4">Creative Digital Design</h2>
+    <p class="text-gray-400 max-w-xl">
+      Nakz Design helps brands stand out with modern, clean, and creative digital solutions.
+    </p>
+    <a href="portfolio.html" class="mt-6 px-6 py-3 bg-sky-400 text-black rounded hover:bg-sky-300">
+      View Our Work
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 text-gray-500">
+    © 2026 Nakz Design. All rights reserved.
+  </footer>
+<script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+</script>
+
+</body>
+</html>
